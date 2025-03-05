@@ -59,7 +59,8 @@ cat /etc/hostname
 ```
 
 ## OUTPUT
-![Screenshot 2025-03-05 103711](https://github.com/user-attachments/assets/e3a21198-05ba-4f27-be3d-ea2170f03d42)
+![Screenshot 2025-03-05 104635](https://github.com/user-attachments/assets/61da37c4-475e-4f61-97fb-fbf833cb5121)
+
 
 ### REG NUMBER:212223040026
 ### NAME: BHARATHI M K
