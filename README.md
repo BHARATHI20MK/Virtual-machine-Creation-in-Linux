@@ -1,28 +1,31 @@
+
  # VIRTUAL MACHINE CREATION IN LINUX
-  ## AIM
-       To Install Virtualbox / VMware Workstation with different flavours of linux.
+ 
+ ## AIM
+To install a Linux virtual machine (VM) using CentOS on VirtualBox or VMware Workstation.
+
 ## PROBLEM STATEMENT
-    Explain about the Experiment.
+This experiment involves setting up a virtual machine with CentOS, a popular Linux distribution. This setup allows users to practice Linux commands, test applications, and develop software in a virtualized environment without affecting the host system.
 
 ## ALGORITHM
- ### Steps 1:
-  Open VirtualBox or VMware Workstation</br>
-  
- ### Steps 2:
+ ### Step 1:
+ Open VirtualBox or VMware Workstation</br>
+ 
+ ### Step 2:
  Go to File -> New to create a new virtual machine.</br>
  
- ### Steps 3:
- Enter a name for your CentOS VM.Choose Linux as the type and CentOS as the version (or select the closest option available if CentOS is not listed).</br>
+ ### Step 3:
+Enter a name for your CentOS VM.Choose Linux as the type and CentOS as the version (or select the closest option available if CentOS is not listed).</br>
 
- ### Steps 4:
-  Select the CentOS ISO image you downloaded.</br>
+ ### Step 4:
+ Select the CentOS ISO image you downloaded.</br>
  Set the base memory to 1024 MB (1 GB)</br>
  Allocate 1 processor core </br>
  Set the disk size to at least 20 GB</br>
  Complete the configuration by clicking Finish to create the virtual machine</br>
  
- ### Steps 5:
-  Select the created VM, go to Details (or Settings), and navigate to the Network tab.</br>
+ ### Step 5:
+ Select the created VM, go to Details (or Settings), and navigate to the Network tab.</br>
 Configure Adapter 1 as NAT (for internet access through the host).</br>
 Configure Adapter 2 as Bridged Adapter (for direct access to the local network, if needed).</br>
 Click OK to save network settings.</br>
@@ -33,6 +36,7 @@ During installation, set a password for the root user.</br>
 After logging in to CentOS, open a terminal to start using the command line.</br>
 
 ## COMMANDS
+
 #### Switch to User:
 ```
 su username
@@ -58,18 +62,18 @@ vi /etc/hostname
 cat /etc/hostname
 ```
 
+```
+REG NUMBER: 212222100013
+NAME: JAYABHARATHI S
+```
+
 ## OUTPUT
-![Screenshot 2025-03-05 104635](https://github.com/user-attachments/assets/61da37c4-475e-4f61-97fb-fbf833cb5121)
 
+![image](https://github.com/user-attachments/assets/9f540cf0-f21b-4477-a44c-411cff2882b4)
 
-### REG NUMBER:212223040026
-### NAME: BHARATHI M K
+![image](https://github.com/user-attachments/assets/d19abc61-3aaf-46ae-adf9-13a97d5b9573)
 
 ## RESULT
  Successfully installed CentOS on a virtual machine using VirtualBox or VMware, providing a fully functional CentOS environment for testing and development.
 
- 
-
   
-
-
